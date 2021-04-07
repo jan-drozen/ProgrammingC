@@ -67,14 +67,14 @@ void printSeparator()									//signatura
 
 //funkce pro prvni priklad - chceme vypsat cisla 0,1,2,3,4
 void loop1()
-{	
+{
 	int i = 0;					//deklarace promenne typu int se jmenem "i" a prirazenim hodnoty 0
 								//to same ve dvou radcich:
 								//int i;	//nejprve deklarace
 								//i = 0;	//potom prirazeni hodnoty
 	while (i < 5)				//dokud je hodnota v promenne i mensi nez 5, tak se bude opakovat nasledujici blok kodu
 	{								//zacatek bloku. Byva zvykem jednotlive bloky posouvat tabulatorem
-		printf("%d\n",i++);			//vypiseme hodnotu v promenne i, odradkujeme a zvysime hodnotu v i o 1
+		printf("%d\n", i++);			//vypiseme hodnotu v promenne i, odradkujeme a zvysime hodnotu v i o 1
 	}								//konec bloku
 	/*
 	* To same ve vice krocich by vypadalo takto:
@@ -130,7 +130,7 @@ void loop6()
 	while (i < 100)
 	{
 		printf("%d\n", i);
-		i += 2;		
+		i += 2;
 	}
 }
 
