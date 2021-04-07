@@ -7,7 +7,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\ProgrammingC\L01.c">
+    <ClCompile Include="L01.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
