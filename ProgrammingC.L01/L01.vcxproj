@@ -21,6 +21,9 @@
   <ItemGroup>
     <ClCompile Include="L01.c" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="radme.md" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
