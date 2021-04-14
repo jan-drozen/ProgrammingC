@@ -89,13 +89,13 @@ int faktorial_for_sestupne(int cislo)
 
 //rekurzivni vypocet - mozna pro tuhle chvili moc slozite, ale elegantni
 //opakovani: faktorial iterativne: cislo! = 1 * 2 * ... * cislo
-//faktorial rekurzivne:
+//faktorial rekurzivne ma dve pravidla:
 //0! = 1
 //cislo! = cislo * (cislo-1)!
 //tzn. nepouzivame zadny cyklus, ale funkce vola sama sebe (vnoruje se sama do sebe) tolikrat, kolik je potreba (nez narazi na tzv. "dno rekurze")
 int faktorial_rekurzivne(int cislo)
 {
-	if (cislo == 0) //dno rekurze - podle definice je 0! = 1x
+	if (cislo == 0) //dno rekurze - podle definice je 0! = 1
 		return 1; // takze vratime 1 a nevnorujeme se dal
 	return cislo * faktorial_rekurzivne(cislo - 1); //pokud se program dostane na tenhle radek, tak urcite je "cislo" vetsi nez 0, tak jim vynasobime vysledek faktorialu cisla o jedna mensi (volani sama sebe s argumentem o jednicku mensim)
 }
